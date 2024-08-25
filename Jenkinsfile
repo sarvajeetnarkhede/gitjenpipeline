@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: '<remote-repository-url>'
+                git url: 'https://github.com/sarvajeetnarkhede/gitjenpipeline'
             }
         }
         stage('Build') {
